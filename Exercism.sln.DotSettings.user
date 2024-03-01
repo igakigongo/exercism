@@ -5,6 +5,7 @@
     &lt;TestId&gt;xUnit::96868F78-D72A-4C86-A071-1291D2780064::net8.0::AnnalynsInfiltration.AnnalynsInfiltrationTests&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::6933583C-2711-43B4-A7D0-EC7D41EA8905::net8.0::LogLevels.LogLevelsTests&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::1C479C9E-C1A6-4B8C-870F-C45E1F9ABF1A::net8.0::LogAnalysis.LogAnalysisTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::1445311E-1293-4481-96C1-4CCF55028CDC::net8.0::PhoneNumberAnalysis.PhoneNumberAnalysisTests&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=Annalyns/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>
