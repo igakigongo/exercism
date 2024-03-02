@@ -11,6 +11,7 @@
     &lt;TestId&gt;xUnit::42D2F113-2846-4DB0-839E-1A2AA6E9434C::net8.0::Bob.BobTests&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::79F27A27-44E0-421A-A8F6-CF994D84236C::net8.0::Leap.LeapTests&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::3D3990C3-06CA-4EDE-92E3-1FF201AA8ECF::net8.0::DifferenceOfSquares.DifferenceOfSquaresTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::C26FB072-6E7D-40AF-91DB-8AA1E76AD72E::net8.0::InterestIsInteresting.InterestIsInterestingTests&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
 	
