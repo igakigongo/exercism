@@ -7,6 +7,10 @@
     &lt;TestId&gt;xUnit::1C479C9E-C1A6-4B8C-870F-C45E1F9ABF1A::net8.0::LogAnalysis.LogAnalysisTests&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::1445311E-1293-4481-96C1-4CCF55028CDC::net8.0::PhoneNumberAnalysis.PhoneNumberAnalysisTests&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::F46B40ED-ABE8-41D3-B1EC-0368D49FC1B3::net8.0::CarsAssemble.CarsAssembleTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::42D2F113-2846-4DB0-839E-1A2AA6E9434C::net8.0::Bob.BobTests.Asking_a_numeric_question&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::42D2F113-2846-4DB0-839E-1A2AA6E9434C::net8.0::Bob.BobTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::79F27A27-44E0-421A-A8F6-CF994D84236C::net8.0::Leap.LeapTests&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
+	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=79f27a27_002D44e0_002D421a_002Da8f6_002Dcf994d84236c_0023Leap/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=Annalyns/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>
