@@ -10,7 +10,8 @@
     &lt;TestId&gt;xUnit::42D2F113-2846-4DB0-839E-1A2AA6E9434C::net8.0::Bob.BobTests.Asking_a_numeric_question&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::42D2F113-2846-4DB0-839E-1A2AA6E9434C::net8.0::Bob.BobTests&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::79F27A27-44E0-421A-A8F6-CF994D84236C::net8.0::Leap.LeapTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::3D3990C3-06CA-4EDE-92E3-1FF201AA8ECF::net8.0::DifferenceOfSquares.DifferenceOfSquaresTests&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
-	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=79f27a27_002D44e0_002D421a_002Da8f6_002Dcf994d84236c_0023Leap/@EntryIndexedValue">True</s:Boolean>
+	
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=Annalyns/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>
