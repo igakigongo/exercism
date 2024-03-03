@@ -22,6 +22,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PythagoreanTriplet", "Pytha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimFromMarketing", "TimFromMarketing\TimFromMarketing.csproj", "{710EA5F1-0583-421F-A305-0EA584696111}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Darts", "Darts\Darts.csproj", "{D07AE297-0600-49C8-BF36-C999646EC6F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +74,9 @@ Global
 		{710EA5F1-0583-421F-A305-0EA584696111}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{710EA5F1-0583-421F-A305-0EA584696111}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{710EA5F1-0583-421F-A305-0EA584696111}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D07AE297-0600-49C8-BF36-C999646EC6F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D07AE297-0600-49C8-BF36-C999646EC6F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D07AE297-0600-49C8-BF36-C999646EC6F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D07AE297-0600-49C8-BF36-C999646EC6F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
