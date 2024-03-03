@@ -18,8 +18,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterestIsInteresting", "In
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Triangle", "Triangle\Triangle.csproj", "{699D11A5-C1F2-4542-92AC-CADBEBFA038D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PythagoreanTriplet", "PythagoreanTriplet\PythagoreanTriplet.csproj", "{7D4470AD-852D-43A9-B4A0-B469836B3797}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimFromMarketing", "TimFromMarketing\TimFromMarketing.csproj", "{710EA5F1-0583-421F-A305-0EA584696111}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Darts", "Darts\Darts.csproj", "{D07AE297-0600-49C8-BF36-C999646EC6F0}"
@@ -70,10 +68,6 @@ Global
 		{699D11A5-C1F2-4542-92AC-CADBEBFA038D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{699D11A5-C1F2-4542-92AC-CADBEBFA038D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{699D11A5-C1F2-4542-92AC-CADBEBFA038D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7D4470AD-852D-43A9-B4A0-B469836B3797}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7D4470AD-852D-43A9-B4A0-B469836B3797}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7D4470AD-852D-43A9-B4A0-B469836B3797}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7D4470AD-852D-43A9-B4A0-B469836B3797}.Release|Any CPU.Build.0 = Release|Any CPU
 		{710EA5F1-0583-421F-A305-0EA584696111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{710EA5F1-0583-421F-A305-0EA584696111}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{710EA5F1-0583-421F-A305-0EA584696111}.Release|Any CPU.ActiveCfg = Release|Any CPU
