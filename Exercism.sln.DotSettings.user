@@ -13,6 +13,10 @@
     &lt;TestId&gt;xUnit::3D3990C3-06CA-4EDE-92E3-1FF201AA8ECF::net8.0::DifferenceOfSquares.DifferenceOfSquaresTests&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::C26FB072-6E7D-40AF-91DB-8AA1E76AD72E::net8.0::InterestIsInteresting.InterestIsInterestingTests&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::699D11A5-C1F2-4542-92AC-CADBEBFA038D::net8.0::Triangle.TriangleTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::7D4470AD-852D-43A9-B4A0-B469836B3797::net8.0::PythagoreanTriplet.PythagoreanTripletTests.Triplets_whose_sum_is_12&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::7D4470AD-852D-43A9-B4A0-B469836B3797::net8.0::PythagoreanTriplet.PythagoreanTripletTests.Triplets_whose_sum_is_108&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::7D4470AD-852D-43A9-B4A0-B469836B3797::net8.0::PythagoreanTriplet.PythagoreanTripletTests.Triplets_whose_sum_is_1000&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::7D4470AD-852D-43A9-B4A0-B469836B3797::net8.0::PythagoreanTriplet.PythagoreanTripletTests&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
 	
