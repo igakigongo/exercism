@@ -24,6 +24,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimFromMarketing", "TimFrom
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Darts", "Darts\Darts.csproj", "{D07AE297-0600-49C8-BF36-C999646EC6F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RollTheDie", "RollTheDie\RollTheDie.csproj", "{0E515356-F164-4A9C-97E9-B0B516087469}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -78,5 +80,9 @@ Global
 		{D07AE297-0600-49C8-BF36-C999646EC6F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D07AE297-0600-49C8-BF36-C999646EC6F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D07AE297-0600-49C8-BF36-C999646EC6F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E515356-F164-4A9C-97E9-B0B516087469}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E515356-F164-4A9C-97E9-B0B516087469}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E515356-F164-4A9C-97E9-B0B516087469}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E515356-F164-4A9C-97E9-B0B516087469}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
