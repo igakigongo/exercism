@@ -20,6 +20,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Triangle", "Triangle\Triang
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PythagoreanTriplet", "PythagoreanTriplet\PythagoreanTriplet.csproj", "{7D4470AD-852D-43A9-B4A0-B469836B3797}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimFromMarketing", "TimFromMarketing\TimFromMarketing.csproj", "{710EA5F1-0583-421F-A305-0EA584696111}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -66,5 +68,9 @@ Global
 		{7D4470AD-852D-43A9-B4A0-B469836B3797}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D4470AD-852D-43A9-B4A0-B469836B3797}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D4470AD-852D-43A9-B4A0-B469836B3797}.Release|Any CPU.Build.0 = Release|Any CPU
+		{710EA5F1-0583-421F-A305-0EA584696111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{710EA5F1-0583-421F-A305-0EA584696111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{710EA5F1-0583-421F-A305-0EA584696111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{710EA5F1-0583-421F-A305-0EA584696111}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
