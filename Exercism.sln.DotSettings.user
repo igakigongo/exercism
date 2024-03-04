@@ -1,39 +1,13 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:String x:Key="/Default/Environment/Highlighting/HighlightingSourceSnapshotLocation/@EntryValue">/Users/kigongo/Library/Caches/JetBrains/Rider2023.2/resharper-host/temp/Rider/vAny/CoverageData/_Exercism.1059251174/Snapshot/snapshot.utdcvr</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=234b0740_002D7906_002D4517_002D80a5_002Df86f54dce3ec/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Number_3999_is_mmmcmxcix" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6ba6e104_002D5fa3_002D4502_002D854d_002Da10318e0d08f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Other_whitespace" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
-    &lt;TestId&gt;xUnit::7C7BD0E3-BCA9-49A5-82CC-EFE54CDF3424::net8.0::RomanNumerals.RomanNumeralsTests.Number_3999_is_mmmcmxcix&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::D715C7DF-940E-42B0-BF13-7F767BD2BB39::net8.0::Bob.BobTests&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=3a56638f_002Dc303_002D407a_002D9f7c_002D6a74dcbdd398/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="AnnalynsInfiltrationTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;TestAncestor&gt;
-    &lt;TestId&gt;xUnit::96868F78-D72A-4C86-A071-1291D2780064::net8.0::AnnalynsInfiltration.AnnalynsInfiltrationTests&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::6933583C-2711-43B4-A7D0-EC7D41EA8905::net8.0::LogLevels.LogLevelsTests&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::1C479C9E-C1A6-4B8C-870F-C45E1F9ABF1A::net8.0::LogAnalysis.LogAnalysisTests&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::1445311E-1293-4481-96C1-4CCF55028CDC::net8.0::PhoneNumberAnalysis.PhoneNumberAnalysisTests&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::F46B40ED-ABE8-41D3-B1EC-0368D49FC1B3::net8.0::CarsAssemble.CarsAssembleTests&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::42D2F113-2846-4DB0-839E-1A2AA6E9434C::net8.0::Bob.BobTests.Asking_a_numeric_question&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::42D2F113-2846-4DB0-839E-1A2AA6E9434C::net8.0::Bob.BobTests&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::79F27A27-44E0-421A-A8F6-CF994D84236C::net8.0::Leap.LeapTests&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::3D3990C3-06CA-4EDE-92E3-1FF201AA8ECF::net8.0::DifferenceOfSquares.DifferenceOfSquaresTests&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::C26FB072-6E7D-40AF-91DB-8AA1E76AD72E::net8.0::InterestIsInteresting.InterestIsInterestingTests&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::699D11A5-C1F2-4542-92AC-CADBEBFA038D::net8.0::Triangle.TriangleTests&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::7D4470AD-852D-43A9-B4A0-B469836B3797::net8.0::PythagoreanTriplet.PythagoreanTripletTests.Triplets_whose_sum_is_12&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::7D4470AD-852D-43A9-B4A0-B469836B3797::net8.0::PythagoreanTriplet.PythagoreanTripletTests.Triplets_whose_sum_is_108&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::7D4470AD-852D-43A9-B4A0-B469836B3797::net8.0::PythagoreanTriplet.PythagoreanTripletTests.Triplets_whose_sum_is_1000&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::7D4470AD-852D-43A9-B4A0-B469836B3797::net8.0::PythagoreanTriplet.PythagoreanTripletTests&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::710EA5F1-0583-421F-A305-0EA584696111::net8.0::TimFromMarketing.TimFromMarketingTests&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::D07AE297-0600-49C8-BF36-C999646EC6F0::net8.0::Darts.DartsTests&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::0E515356-F164-4A9C-97E9-B0B516087469::net8.0::RollTheDie.RollTheDieTests&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::E94366CA-D9D6-4E09-8B16-A892798C1466::net8.0::ElonsToys.ElonsToysTests&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::7C7BD0E3-BCA9-49A5-82CC-EFE54CDF3424::net8.0::RomanNumerals.RomanNumeralsTests&lt;/TestId&gt;
-  &lt;/TestAncestor&gt;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=663a09cb_002Dac84_002D4bff_002D82da_002De767734ca1a9/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Number_1666_is_mdclxvi" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;TestAncestor&gt;
-    &lt;TestId&gt;xUnit::7C7BD0E3-BCA9-49A5-82CC-EFE54CDF3424::net8.0::RomanNumerals.RomanNumeralsTests&lt;/TestId&gt;
-  &lt;/TestAncestor&gt;
-&lt;/SessionState&gt;</s:String>
+	
+	
+	
 	
 	
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=Annalyns/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>
