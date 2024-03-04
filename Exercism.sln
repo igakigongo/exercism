@@ -26,6 +26,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RollTheDie", "RollTheDie\Ro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElonsToys", "ElonsToys\ElonsToys.csproj", "{E94366CA-D9D6-4E09-8B16-A892798C1466}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumerals", "RomanNumerals\RomanNumerals.csproj", "{7C7BD0E3-BCA9-49A5-82CC-EFE54CDF3424}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -84,5 +86,9 @@ Global
 		{E94366CA-D9D6-4E09-8B16-A892798C1466}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E94366CA-D9D6-4E09-8B16-A892798C1466}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E94366CA-D9D6-4E09-8B16-A892798C1466}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C7BD0E3-BCA9-49A5-82CC-EFE54CDF3424}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C7BD0E3-BCA9-49A5-82CC-EFE54CDF3424}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C7BD0E3-BCA9-49A5-82CC-EFE54CDF3424}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C7BD0E3-BCA9-49A5-82CC-EFE54CDF3424}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
