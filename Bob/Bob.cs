@@ -2,26 +2,14 @@ namespace Bob;
 
 public static class Bob
 {
-    public static string Response(string statement)
+    public static string Response(string statement) => statement.Trim() switch
     {
-        switch (statement.Trim())
-        {
-            case { } message when string.IsNullOrWhiteSpace(message):
-                return "Fine. Be that way!";
-
-            case { } message when IsYelling(message) && IsQuestion(message):
-                return "Calm down, I know what I'm doing!";
-
-            case { } message when IsYelling(message):
-                return "Whoa, chill out!";
-
-            case { } message when IsQuestion(message):
-                return "Sure.";
-
-            default:
-                return "Whatever.";
-        }
-    }
+        { } message when string.IsNullOrWhiteSpace(message) => "Fine. Be that way!",
+        { } message when IsYelling(message) && IsQuestion(message) => "Calm down, I know what I'm doing!",
+        { } message when IsYelling(message) => "Whoa, chill out!",
+        { } message when IsQuestion(message) => "Sure.",
+        _ => "Whatever."
+    };
 
     private static bool IsQuestion(string statement) =>
         statement[^1] == '?';
