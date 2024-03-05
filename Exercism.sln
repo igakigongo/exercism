@@ -34,6 +34,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeedForSpeed", "NeedForSpee
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceAge", "SpaceAge\SpaceAge.csproj", "{437A2BB2-5509-4AC6-95F4-1AED76AF1D8E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BirdWatcher", "BirdWatcher\BirdWatcher.csproj", "{78EEAD20-3D76-4110-A5B9-84A1BA08AEB8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -108,5 +110,9 @@ Global
 		{437A2BB2-5509-4AC6-95F4-1AED76AF1D8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{437A2BB2-5509-4AC6-95F4-1AED76AF1D8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{437A2BB2-5509-4AC6-95F4-1AED76AF1D8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78EEAD20-3D76-4110-A5B9-84A1BA08AEB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78EEAD20-3D76-4110-A5B9-84A1BA08AEB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78EEAD20-3D76-4110-A5B9-84A1BA08AEB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78EEAD20-3D76-4110-A5B9-84A1BA08AEB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
