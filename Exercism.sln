@@ -30,6 +30,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumerals", "RomanNumer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bob", "Bob\Bob.csproj", "{D715C7DF-940E-42B0-BF13-7F767BD2BB39}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeedForSpeed", "NeedForSpeed\NeedForSpeed.csproj", "{E5C10385-25D6-4A28-98C6-021F9A4817B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -96,5 +98,9 @@ Global
 		{D715C7DF-940E-42B0-BF13-7F767BD2BB39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D715C7DF-940E-42B0-BF13-7F767BD2BB39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D715C7DF-940E-42B0-BF13-7F767BD2BB39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5C10385-25D6-4A28-98C6-021F9A4817B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5C10385-25D6-4A28-98C6-021F9A4817B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5C10385-25D6-4A28-98C6-021F9A4817B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5C10385-25D6-4A28-98C6-021F9A4817B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
