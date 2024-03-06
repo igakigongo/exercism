@@ -40,6 +40,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseString", "ReverseStr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anagram", "Anagram\Anagram.csproj", "{651EB700-7646-4E41-B506-6009BFD9ADC5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunLengthEncoding", "RunLengthEncoding\RunLengthEncoding.csproj", "{37374FDD-06E5-4F9D-8DE6-387407EE5BF0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -126,5 +128,9 @@ Global
 		{651EB700-7646-4E41-B506-6009BFD9ADC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{651EB700-7646-4E41-B506-6009BFD9ADC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{651EB700-7646-4E41-B506-6009BFD9ADC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37374FDD-06E5-4F9D-8DE6-387407EE5BF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37374FDD-06E5-4F9D-8DE6-387407EE5BF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37374FDD-06E5-4F9D-8DE6-387407EE5BF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37374FDD-06E5-4F9D-8DE6-387407EE5BF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
