@@ -48,6 +48,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfMultiples", "SumOfMult
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpiralMatrix", "SpiralMatrix\SpiralMatrix.csproj", "{362841EC-C778-4D00-9BC9-93B2B4E66045}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqueakyClean", "SqueakyClean\SqueakyClean.csproj", "{414DAF9D-913D-4FEF-BCC6-2791C7C20615}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -150,5 +152,9 @@ Global
 		{362841EC-C778-4D00-9BC9-93B2B4E66045}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{362841EC-C778-4D00-9BC9-93B2B4E66045}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{362841EC-C778-4D00-9BC9-93B2B4E66045}.Release|Any CPU.Build.0 = Release|Any CPU
+		{414DAF9D-913D-4FEF-BCC6-2791C7C20615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{414DAF9D-913D-4FEF-BCC6-2791C7C20615}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{414DAF9D-913D-4FEF-BCC6-2791C7C20615}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{414DAF9D-913D-4FEF-BCC6-2791C7C20615}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
