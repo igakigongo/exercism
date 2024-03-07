@@ -46,6 +46,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearch", "BinarySearc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfMultiples", "SumOfMultiples\SumOfMultiples.csproj", "{669D90E4-D378-4202-A1FF-EC784F65B09B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpiralMatrix", "SpiralMatrix\SpiralMatrix.csproj", "{362841EC-C778-4D00-9BC9-93B2B4E66045}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -144,5 +146,9 @@ Global
 		{669D90E4-D378-4202-A1FF-EC784F65B09B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{669D90E4-D378-4202-A1FF-EC784F65B09B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{669D90E4-D378-4202-A1FF-EC784F65B09B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{362841EC-C778-4D00-9BC9-93B2B4E66045}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{362841EC-C778-4D00-9BC9-93B2B4E66045}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{362841EC-C778-4D00-9BC9-93B2B4E66045}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{362841EC-C778-4D00-9BC9-93B2B4E66045}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
