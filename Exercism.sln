@@ -52,6 +52,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqueakyClean", "SqueakyClea
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acronym", "Acronym\Acronym.csproj", "{EC519F3D-564B-4764-AE9A-3C7D46C7C913}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotationalCipher", "RotationalCipher\RotationalCipher.csproj", "{46FD9108-72F1-400B-8103-FAA0E88022F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -162,5 +164,9 @@ Global
 		{EC519F3D-564B-4764-AE9A-3C7D46C7C913}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC519F3D-564B-4764-AE9A-3C7D46C7C913}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC519F3D-564B-4764-AE9A-3C7D46C7C913}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46FD9108-72F1-400B-8103-FAA0E88022F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46FD9108-72F1-400B-8103-FAA0E88022F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46FD9108-72F1-400B-8103-FAA0E88022F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46FD9108-72F1-400B-8103-FAA0E88022F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
