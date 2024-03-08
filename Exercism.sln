@@ -50,6 +50,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpiralMatrix", "SpiralMatri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqueakyClean", "SqueakyClean\SqueakyClean.csproj", "{414DAF9D-913D-4FEF-BCC6-2791C7C20615}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acronym", "Acronym\Acronym.csproj", "{EC519F3D-564B-4764-AE9A-3C7D46C7C913}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -156,5 +158,9 @@ Global
 		{414DAF9D-913D-4FEF-BCC6-2791C7C20615}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{414DAF9D-913D-4FEF-BCC6-2791C7C20615}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{414DAF9D-913D-4FEF-BCC6-2791C7C20615}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC519F3D-564B-4764-AE9A-3C7D46C7C913}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC519F3D-564B-4764-AE9A-3C7D46C7C913}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC519F3D-564B-4764-AE9A-3C7D46C7C913}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC519F3D-564B-4764-AE9A-3C7D46C7C913}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
