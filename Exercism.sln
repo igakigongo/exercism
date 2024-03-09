@@ -58,6 +58,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pangram", "Pangram\Pangram.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Isogram", "Isogram\Isogram.csproj", "{A76F3FCE-BE61-4017-885D-5264B1C8AB1D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaddlePoints", "SaddlePoints\SaddlePoints.csproj", "{03F6642F-3DA7-4C03-B93E-C7540CA36B58}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -180,5 +182,9 @@ Global
 		{A76F3FCE-BE61-4017-885D-5264B1C8AB1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A76F3FCE-BE61-4017-885D-5264B1C8AB1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A76F3FCE-BE61-4017-885D-5264B1C8AB1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03F6642F-3DA7-4C03-B93E-C7540CA36B58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03F6642F-3DA7-4C03-B93E-C7540CA36B58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03F6642F-3DA7-4C03-B93E-C7540CA36B58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03F6642F-3DA7-4C03-B93E-C7540CA36B58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
