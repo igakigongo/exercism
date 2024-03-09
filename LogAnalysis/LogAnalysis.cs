@@ -2,21 +2,21 @@
 
 public static class LogAnalysis
 {
-    private static int GetStartIndex(this string logLine, string begin)
-        => logLine.IndexOf(begin, StringComparison.OrdinalIgnoreCase)
-           + begin.Length;
+    private const StringComparison Comp = StringComparison.OrdinalIgnoreCase;
 
     public static string SubstringAfter(this string logLine, string fragment)
     {
-        var beginIndex = logLine.GetStartIndex(fragment);
+        var len = fragment.Length;
+        var beginIndex = logLine.IndexOf(fragment, Comp) + len;
         return logLine[beginIndex..];
     }
 
-    public static string SubstringBetween(this string logLine, string begin, string end)
+    public static string SubstringBetween(this string logLine, string begin,
+        string end)
     {
-        var beginIndex = logLine.GetStartIndex(begin);
-        var endIndex = logLine.IndexOf(end, StringComparison.OrdinalIgnoreCase);
-
+        var len = begin.Length;
+        var beginIndex = logLine.IndexOf(begin, Comp) + len;
+        var endIndex = logLine.IndexOf(end, Comp);
         return logLine[beginIndex..endIndex];
     }
 
