@@ -72,6 +72,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResistorColor", "ResistorCo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlattenArray", "FlattenArray\FlattenArray.csproj", "{9D1F24C9-3A30-42CB-95B5-196F699B9A03}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatchingBrackets", "MatchingBrackets\MatchingBrackets.csproj", "{73139BB0-FBE8-4E88-A858-57FBE76A2A60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -222,5 +224,9 @@ Global
 		{9D1F24C9-3A30-42CB-95B5-196F699B9A03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D1F24C9-3A30-42CB-95B5-196F699B9A03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D1F24C9-3A30-42CB-95B5-196F699B9A03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73139BB0-FBE8-4E88-A858-57FBE76A2A60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73139BB0-FBE8-4E88-A858-57FBE76A2A60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73139BB0-FBE8-4E88-A858-57FBE76A2A60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73139BB0-FBE8-4E88-A858-57FBE76A2A60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
