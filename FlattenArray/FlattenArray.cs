@@ -6,27 +6,16 @@ public static class FlattenArray
 {
     public static IEnumerable Flatten(IEnumerable input)
     {
-        var res = new List<int>();
-        FlattenHelper(res, input);
-        return res;
-    }
-
-    private static void FlattenHelper(ICollection<int> res,
-        IEnumerable input)
-    {
-        var enumerator = input.GetEnumerator();
-        using var disposable = enumerator as IDisposable;
-        while (enumerator.MoveNext())
-            switch (enumerator.Current)
+        foreach (var ele in input)
+            switch (ele)
             {
                 case IEnumerable enumerable:
-                    FlattenHelper(res, enumerable);
+                    foreach (var element in Flatten(enumerable))
+                        yield return element;
                     break;
                 case int current:
-                    res.Add(current);
+                    yield return current;
                     break;
-                default:
-                    continue;
             }
     }
 }
