@@ -10,6 +10,7 @@ public class FlattenArrayTests
         var array = Array.Empty<object>();
         Assert.Empty(FlattenArray.Flatten(array));
     }
+
     [Fact]
     public void No_nesting()
     {
@@ -22,6 +23,7 @@ public class FlattenArrayTests
         var expected = new[] { 0, 1, 2 };
         Assert.Equal(expected, FlattenArray.Flatten(array));
     }
+
     [Fact]
     public void Flattens_a_nested_array()
     {
@@ -31,6 +33,7 @@ public class FlattenArrayTests
         };
         Assert.Empty(FlattenArray.Flatten(array));
     }
+
     [Fact]
     public void Flattens_array_with_just_integers_present()
     {
@@ -43,6 +46,7 @@ public class FlattenArrayTests
         var expected = new[] { 1, 2, 3, 4, 5, 6, 7, 8 };
         Assert.Equal(expected, FlattenArray.Flatten(array));
     }
+
     [Fact]
     public void Number_5_level_nesting()
     {
@@ -50,24 +54,34 @@ public class FlattenArrayTests
         {
             0,
             2,
-            new object[] { new object[] { 2, 3 }, 8, 100, 4, new object[] { new object[] { new object[] { 50 } } } },
+            new object[]
+            {
+                new object[] { 2, 3 }, 8, 100, 4,
+                new object[] { new object[] { new object[] { 50 } } }
+            },
             -2
         };
         var expected = new[] { 0, 2, 2, 3, 8, 100, 4, 50, -2 };
         Assert.Equal(expected, FlattenArray.Flatten(array));
     }
+
     [Fact]
     public void Number_6_level_nesting()
     {
         var array = new object[]
         {
             1,
-            new object[] { 2, new object[] { new object[] { 3 } }, new object[] { 4, new object[] { new object[] { 5 } } }, 6, 7 },
+            new object[]
+            {
+                2, new object[] { new object[] { 3 } },
+                new object[] { 4, new object[] { new object[] { 5 } } }, 6, 7
+            },
             8
         };
         var expected = new[] { 1, 2, 3, 4, 5, 6, 7, 8 };
         Assert.Equal(expected, FlattenArray.Flatten(array));
     }
+
     [Fact]
     public void Null_values_are_omitted_from_the_final_result()
     {
@@ -80,8 +94,10 @@ public class FlattenArrayTests
         var expected = new[] { 1, 2 };
         Assert.Equal(expected, FlattenArray.Flatten(array));
     }
+
     [Fact]
-    public void Consecutive_null_values_at_the_front_of_the_list_are_omitted_from_the_final_result()
+    public void
+        Consecutive_null_values_at_the_front_of_the_list_are_omitted_from_the_final_result()
     {
         var array = new object?[]
         {
@@ -92,8 +108,10 @@ public class FlattenArrayTests
         var expected = new[] { 3 };
         Assert.Equal(expected, FlattenArray.Flatten(array));
     }
+
     [Fact]
-    public void Consecutive_null_values_in_the_middle_of_the_list_are_omitted_from_the_final_result()
+    public void
+        Consecutive_null_values_in_the_middle_of_the_list_are_omitted_from_the_final_result()
     {
         var array = new object?[]
         {
@@ -105,6 +123,7 @@ public class FlattenArrayTests
         var expected = new[] { 1, 4 };
         Assert.Equal(expected, FlattenArray.Flatten(array));
     }
+
     [Fact]
     public void Number_6_level_nest_list_with_null_values()
     {
@@ -112,12 +131,17 @@ public class FlattenArrayTests
         {
             0,
             2,
-            new object?[] { new object[] { 2, 3 }, 8, new object[] { new object[] { 100 } }, null, new object[] { new object?[] { null } } },
+            new object?[]
+            {
+                new object[] { 2, 3 }, 8, new object[] { new object[] { 100 } },
+                null, new object[] { new object?[] { null } }
+            },
             -2
         };
         var expected = new[] { 0, 2, 2, 3, 8, 100, -2 };
         Assert.Equal(expected, FlattenArray.Flatten(array));
     }
+
     [Fact]
     public void All_values_in_nested_list_are_null()
     {
