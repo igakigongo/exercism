@@ -80,6 +80,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResistorColorDuo", "Resisto
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrabbleScore", "ScrabbleScore\ScrabbleScore.csproj", "{A45765B9-D323-442A-A1BF-FD901677BCAC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PascalsTriangle", "PascalsTriangle\PascalsTriangle.csproj", "{0B2C6CB9-F3AD-480B-8A52-B4E19688D240}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -246,5 +248,9 @@ Global
 		{A45765B9-D323-442A-A1BF-FD901677BCAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A45765B9-D323-442A-A1BF-FD901677BCAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A45765B9-D323-442A-A1BF-FD901677BCAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B2C6CB9-F3AD-480B-8A52-B4E19688D240}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B2C6CB9-F3AD-480B-8A52-B4E19688D240}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B2C6CB9-F3AD-480B-8A52-B4E19688D240}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B2C6CB9-F3AD-480B-8A52-B4E19688D240}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
