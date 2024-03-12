@@ -82,6 +82,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrabbleScore", "ScrabbleSc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PascalsTriangle", "PascalsTriangle\PascalsTriangle.csproj", "{0B2C6CB9-F3AD-480B-8A52-B4E19688D240}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballMatchReports", "FootballMatchReports\FootballMatchReports.csproj", "{D01AA611-5267-4B66-BCF3-6106691E7030}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -252,5 +254,9 @@ Global
 		{0B2C6CB9-F3AD-480B-8A52-B4E19688D240}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B2C6CB9-F3AD-480B-8A52-B4E19688D240}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B2C6CB9-F3AD-480B-8A52-B4E19688D240}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D01AA611-5267-4B66-BCF3-6106691E7030}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D01AA611-5267-4B66-BCF3-6106691E7030}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D01AA611-5267-4B66-BCF3-6106691E7030}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D01AA611-5267-4B66-BCF3-6106691E7030}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
