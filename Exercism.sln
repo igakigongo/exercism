@@ -96,6 +96,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorConundrum", "Calc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureMunchesterUnited", "SecureMunchesterUnited\SecureMunchesterUnited.csproj", "{E2243C9F-FFA2-4F43-956A-72187C3F7224}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtbashCipher", "AtbashCipher\AtbashCipher.csproj", "{918FA99A-6746-4AFC-A29C-5EF955789FD3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -294,5 +296,9 @@ Global
 		{E2243C9F-FFA2-4F43-956A-72187C3F7224}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2243C9F-FFA2-4F43-956A-72187C3F7224}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2243C9F-FFA2-4F43-956A-72187C3F7224}.Release|Any CPU.Build.0 = Release|Any CPU
+		{918FA99A-6746-4AFC-A29C-5EF955789FD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{918FA99A-6746-4AFC-A29C-5EF955789FD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{918FA99A-6746-4AFC-A29C-5EF955789FD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{918FA99A-6746-4AFC-A29C-5EF955789FD3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
