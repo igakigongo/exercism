@@ -94,6 +94,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogsLogsLogs", "LogsLogsLog
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorConundrum", "CalculatorConundrum\CalculatorConundrum.csproj", "{C939EEDA-2878-446D-96FE-13E26D5CA02B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureMunchesterUnited", "SecureMunchesterUnited\SecureMunchesterUnited.csproj", "{E2243C9F-FFA2-4F43-956A-72187C3F7224}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -288,5 +290,9 @@ Global
 		{C939EEDA-2878-446D-96FE-13E26D5CA02B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C939EEDA-2878-446D-96FE-13E26D5CA02B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C939EEDA-2878-446D-96FE-13E26D5CA02B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2243C9F-FFA2-4F43-956A-72187C3F7224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2243C9F-FFA2-4F43-956A-72187C3F7224}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2243C9F-FFA2-4F43-956A-72187C3F7224}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2243C9F-FFA2-4F43-956A-72187C3F7224}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
