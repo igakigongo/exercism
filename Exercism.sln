@@ -90,6 +90,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\He
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuciansLusciousLasagna", "LuciansLusciousLasagna\LuciansLusciousLasagna.csproj", "{5D6D3EA7-2B67-4AA2-9AC3-0F0BEE08D55E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogsLogsLogs", "LogsLogsLogs\LogsLogsLogs.csproj", "{37E9B377-BB25-4B41-A610-DE61E561665D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -276,5 +278,9 @@ Global
 		{5D6D3EA7-2B67-4AA2-9AC3-0F0BEE08D55E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D6D3EA7-2B67-4AA2-9AC3-0F0BEE08D55E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D6D3EA7-2B67-4AA2-9AC3-0F0BEE08D55E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37E9B377-BB25-4B41-A610-DE61E561665D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37E9B377-BB25-4B41-A610-DE61E561665D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37E9B377-BB25-4B41-A610-DE61E561665D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37E9B377-BB25-4B41-A610-DE61E561665D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
