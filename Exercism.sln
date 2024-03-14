@@ -106,6 +106,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeProducts", "Palin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InternationalCallingConnoisseur", "InternationalCallingConnoisseur\InternationalCallingConnoisseur.csproj", "{B27A8D22-E0B8-472F-BE88-395540AE2B29}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NthPrime", "NthPrime\NthPrime.csproj", "{D9E6EB3B-3EA1-49A3-8511-DEE82C9E1670}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -324,5 +326,9 @@ Global
 		{B27A8D22-E0B8-472F-BE88-395540AE2B29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B27A8D22-E0B8-472F-BE88-395540AE2B29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B27A8D22-E0B8-472F-BE88-395540AE2B29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9E6EB3B-3EA1-49A3-8511-DEE82C9E1670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9E6EB3B-3EA1-49A3-8511-DEE82C9E1670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9E6EB3B-3EA1-49A3-8511-DEE82C9E1670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9E6EB3B-3EA1-49A3-8511-DEE82C9E1670}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

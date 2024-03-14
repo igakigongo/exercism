@@ -5,6 +5,11 @@
     &lt;TestId&gt;xUnit::D7430A17-74AE-442E-AEC4-2C625EF5A829::net8.0::TracksOnTracksOnTracks.TracksOnTracksOnTracksTests&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::D2A57CEB-AE48-4678-B335-CC1D188718E7::net8.0::PalindromeProducts.PalindromeProductsTests&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::B27A8D22-E0B8-472F-BE88-395540AE2B29::net8.0::InternationalCallingConnoisseur.InternationalCallingConnoisseurTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::D9E6EB3B-3EA1-49A3-8511-DEE82C9E1670::net8.0::NthPrime.NthPrimeTests.First_prime&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::D9E6EB3B-3EA1-49A3-8511-DEE82C9E1670::net8.0::NthPrime.NthPrimeTests.Second_prime&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::D9E6EB3B-3EA1-49A3-8511-DEE82C9E1670::net8.0::NthPrime.NthPrimeTests.Sixth_prime&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::D9E6EB3B-3EA1-49A3-8511-DEE82C9E1670::net8.0::NthPrime.NthPrimeTests.Big_prime&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::D9E6EB3B-3EA1-49A3-8511-DEE82C9E1670::net8.0::NthPrime.NthPrimeTests&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
 	
