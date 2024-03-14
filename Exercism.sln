@@ -110,6 +110,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NthPrime", "NthPrime\NthPri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllYourBase", "AllYourBase\AllYourBase.csproj", "{AC08513F-0F05-4219-8297-B56BD46E225C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accumulate", "Accumulate\Accumulate.csproj", "{E8AD0F8A-89E2-4FC9-AAFA-66B1600E7614}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -336,5 +338,9 @@ Global
 		{AC08513F-0F05-4219-8297-B56BD46E225C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC08513F-0F05-4219-8297-B56BD46E225C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC08513F-0F05-4219-8297-B56BD46E225C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8AD0F8A-89E2-4FC9-AAFA-66B1600E7614}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8AD0F8A-89E2-4FC9-AAFA-66B1600E7614}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8AD0F8A-89E2-4FC9-AAFA-66B1600E7614}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8AD0F8A-89E2-4FC9-AAFA-66B1600E7614}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
