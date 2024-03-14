@@ -108,6 +108,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InternationalCallingConnois
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NthPrime", "NthPrime\NthPrime.csproj", "{D9E6EB3B-3EA1-49A3-8511-DEE82C9E1670}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllYourBase", "AllYourBase\AllYourBase.csproj", "{AC08513F-0F05-4219-8297-B56BD46E225C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -330,5 +332,9 @@ Global
 		{D9E6EB3B-3EA1-49A3-8511-DEE82C9E1670}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9E6EB3B-3EA1-49A3-8511-DEE82C9E1670}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9E6EB3B-3EA1-49A3-8511-DEE82C9E1670}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC08513F-0F05-4219-8297-B56BD46E225C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC08513F-0F05-4219-8297-B56BD46E225C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC08513F-0F05-4219-8297-B56BD46E225C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC08513F-0F05-4219-8297-B56BD46E225C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

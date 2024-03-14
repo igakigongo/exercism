@@ -1,17 +1,11 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:String x:Key="/Default/Environment/Highlighting/HighlightingSourceSnapshotLocation/@EntryValue">/Users/kigongo/Library/Caches/JetBrains/Rider2023.3/resharper-host/temp/Rider/vAny/CoverageData/_Exercism.1059251174/Snapshot/snapshot.utdcvr</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6bde24cf_002D2c17_002D403b_002D944f_002Da8709674cdbd/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TracksOnTracksOnTracksTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e2e9305d_002D6adb_002D4d47_002D9517_002Dfd29ac208d07/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="AllYourBaseTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
-    &lt;TestId&gt;xUnit::D7430A17-74AE-442E-AEC4-2C625EF5A829::net8.0::TracksOnTracksOnTracks.TracksOnTracksOnTracksTests&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::D2A57CEB-AE48-4678-B335-CC1D188718E7::net8.0::PalindromeProducts.PalindromeProductsTests&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::B27A8D22-E0B8-472F-BE88-395540AE2B29::net8.0::InternationalCallingConnoisseur.InternationalCallingConnoisseurTests&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::D9E6EB3B-3EA1-49A3-8511-DEE82C9E1670::net8.0::NthPrime.NthPrimeTests.First_prime&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::D9E6EB3B-3EA1-49A3-8511-DEE82C9E1670::net8.0::NthPrime.NthPrimeTests.Second_prime&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::D9E6EB3B-3EA1-49A3-8511-DEE82C9E1670::net8.0::NthPrime.NthPrimeTests.Sixth_prime&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::D9E6EB3B-3EA1-49A3-8511-DEE82C9E1670::net8.0::NthPrime.NthPrimeTests.Big_prime&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::D9E6EB3B-3EA1-49A3-8511-DEE82C9E1670::net8.0::NthPrime.NthPrimeTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::AC08513F-0F05-4219-8297-B56BD46E225C::net8.0::AllYourBase.AllYourBaseTests&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
+	
 	
 	
 	
