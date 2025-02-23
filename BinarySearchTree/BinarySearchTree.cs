@@ -5,6 +5,7 @@ namespace BinarySearchTree;
 public class BinarySearchTree : IEnumerable<int>
 {
     public BinarySearchTree(int value) => Value = value;
+
     public BinarySearchTree(IEnumerable<int> values)
     {
         var arr = values.ToArray() ?? throw new ArgumentNullException(paramName: nameof(values));
@@ -22,30 +23,21 @@ public class BinarySearchTree : IEnumerable<int>
     public BinarySearchTree Add(int value)
     {
         if (value <= Value)
-        {
-            if (Left != null) 
-                return Left.Add(value);
-            
-            Left = new BinarySearchTree(value);
-            return Left;
-        }
+            return Left?.Add(value) ?? (Left = new BinarySearchTree(value));
 
-        if (Right != null) return Right.Add(value);
-
-        Right = new BinarySearchTree(value);
-        return Right;
+        return Right?.Add(value) ?? (Right = new BinarySearchTree(value));
     }
 
     public IEnumerator<int> GetEnumerator()
     {
         foreach (var tree in Left?.AsEnumerable() ?? [])
             yield return tree;
-        
+
         yield return Value;
-        
+
         foreach (var tree in Right?.AsEnumerable() ?? [])
             yield return tree;
     }
-    
+
     IEnumerator IEnumerable.GetEnumerator() => GetEnumerator();
 }
