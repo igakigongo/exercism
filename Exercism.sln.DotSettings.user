@@ -5,6 +5,7 @@
   &lt;TestAncestor&gt;
     &lt;TestId&gt;xUnit::2D12BA56-F999-45A9-96E7-B5F414480511::net8.0::BinarySearchTree.BinarySearchTreeTests&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::BAF81842-451F-48EA-B07A-D47EE36064B7::net8.0::PerfectNumbers.PerfectNumbersTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::D06D9C22-041C-4DDD-ACCD-1F583F7631C2::net8.0::ProteinTranslation.ProteinTranslationTests&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
 	
