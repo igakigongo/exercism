@@ -4,6 +4,7 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=53d40bde_002D2e09_002D4737_002D99c7_002D9e5c11e10239/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="IsbnVerifierTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
     &lt;TestId&gt;xUnit::2D12BA56-F999-45A9-96E7-B5F414480511::net8.0::BinarySearchTree.BinarySearchTreeTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::BAF81842-451F-48EA-B07A-D47EE36064B7::net8.0::PerfectNumbers.PerfectNumbersTests&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
 	

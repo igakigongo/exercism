@@ -1,5 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# 
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnnalynsInfiltration", "AnnalynsInfiltration\AnnalynsInfiltration.csproj", "{96868F78-D72A-4C86-A071-1291D2780064}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogLevels", "LogLevels\LogLevels.csproj", "{6933583C-2711-43B4-A7D0-EC7D41EA8905}"
@@ -115,6 +116,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsbnVerifier", "IsbnVerifier\IsbnVerifier.csproj", "{BD074F22-B020-4873-B42A-630B75EFE83D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearchTree", "BinarySearchTree\BinarySearchTree.csproj", "{2D12BA56-F999-45A9-96E7-B5F414480511}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerfectNumbers", "PerfectNumbers\PerfectNumbers.csproj", "{BAF81842-451F-48EA-B07A-D47EE36064B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -354,5 +357,9 @@ Global
 		{2D12BA56-F999-45A9-96E7-B5F414480511}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D12BA56-F999-45A9-96E7-B5F414480511}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D12BA56-F999-45A9-96E7-B5F414480511}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAF81842-451F-48EA-B07A-D47EE36064B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAF81842-451F-48EA-B07A-D47EE36064B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAF81842-451F-48EA-B07A-D47EE36064B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAF81842-451F-48EA-B07A-D47EE36064B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
