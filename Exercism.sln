@@ -129,6 +129,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneNumber", "PhoneNumber\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceID2", "FaceID2\FaceID2.csproj", "{F48E0991-D56D-4570-9807-F4E504E629C2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradeSchool", "GradeSchool\GradeSchool.csproj", "{9B771830-EAAC-424D-A522-993193BB3B94}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -391,5 +393,9 @@ Global
 		{F48E0991-D56D-4570-9807-F4E504E629C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F48E0991-D56D-4570-9807-F4E504E629C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F48E0991-D56D-4570-9807-F4E504E629C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B771830-EAAC-424D-A522-993193BB3B94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B771830-EAAC-424D-A522-993193BB3B94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B771830-EAAC-424D-A522-993193BB3B94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B771830-EAAC-424D-A522-993193BB3B94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
