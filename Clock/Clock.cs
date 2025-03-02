@@ -2,63 +2,26 @@
 
 public record Clock
 {
-    private int _hours;
-    private int _minutes;
+    private readonly int _hours;
+    private readonly int _minutes;
 
     public Clock(int hours, int minutes)
     {
-        var ms = hours % 24 * 60 + minutes % 1440;
-        if (ms > -1)
-            Add(ms);
-        else
-            Subtract(ms * -1);
+        var mins = hours * 60 + minutes;
+        _hours = Math.DivRem(Mod(mins, 1440), 60, out _minutes);
     }
 
     public Clock Add(int minutesToAdd)
     {
-        AddHours(minutesToAdd / 60 % 24);
-        AddMinutes(minutesToAdd % 60);
-        return this;
+        return new Clock(_hours, _minutes + minutesToAdd);
     }
 
     public Clock Subtract(int minutesToSubtract)
     {
-        AddHours(-(minutesToSubtract / 60 % 24));
-        AddMinutes(-minutesToSubtract % 60);
-        return this;
+        return new Clock(_hours, _minutes - minutesToSubtract);
     }
 
-    private void AddHours(int hours)
-    {
-        var hrs = hours % 24;
-        _hours += hrs > 0 ? hrs : hrs + 24;
-        _hours %= 24;
-    }
-
-    private void AddMinutes(int minutes)
-    {
-        var steps = Math.Abs(minutes % 60);
-        var step = minutes < 0 ? -1 : 1;
-        for (var i = 0; i < steps; i++)
-        {
-            _minutes += step;
-
-            switch (_minutes)
-            {
-                case -1:
-                    _minutes = 59;
-                    _hours += step;
-                    break;
-                case 60:
-                    _minutes = 0;
-                    _hours += step;
-                    break;
-            }
-
-            _hours = _hours == -1 ? 23 : _hours;
-            _hours = _hours == 24 ? 0 : _hours;
-        }
-    }
+    private static int Mod(int x, int y) => (x % y + y) % y;
 
     public override string ToString()
     {

@@ -252,8 +252,7 @@ public class ClockTests
 
     [Fact]
     public void Clocks_with_negative_hour()
-    {
-        Assert.Equal(new Clock(22, 40), new Clock(-2, 40));
+    { Assert.Equal(new Clock(22, 40), new Clock(-2, 40));
     }
 
     [Fact]
