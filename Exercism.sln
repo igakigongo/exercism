@@ -143,6 +143,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PythagoreanTriplet", "Pytha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelLetterFrequency", "ParallelLetterFrequency\ParallelLetterFrequency.csproj", "{8937E30C-6167-496E-86F9-18AB8228A487}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArmstrongNumbers", "ArmstrongNumbers\ArmstrongNumbers.csproj", "{2C183003-A0D7-4CAE-96F9-F83EEE09AF24}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -433,5 +435,9 @@ Global
 		{8937E30C-6167-496E-86F9-18AB8228A487}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8937E30C-6167-496E-86F9-18AB8228A487}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8937E30C-6167-496E-86F9-18AB8228A487}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C183003-A0D7-4CAE-96F9-F83EEE09AF24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C183003-A0D7-4CAE-96F9-F83EEE09AF24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C183003-A0D7-4CAE-96F9-F83EEE09AF24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C183003-A0D7-4CAE-96F9-F83EEE09AF24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
