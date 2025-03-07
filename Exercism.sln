@@ -141,6 +141,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordSearch", "WordSearch\Wo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PythagoreanTriplet", "PythagoreanTriplet\PythagoreanTriplet.csproj", "{58577447-62D4-4DBD-8E40-F16AC5C43956}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelLetterFrequency", "ParallelLetterFrequency\ParallelLetterFrequency.csproj", "{8937E30C-6167-496E-86F9-18AB8228A487}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -427,5 +429,9 @@ Global
 		{58577447-62D4-4DBD-8E40-F16AC5C43956}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58577447-62D4-4DBD-8E40-F16AC5C43956}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58577447-62D4-4DBD-8E40-F16AC5C43956}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8937E30C-6167-496E-86F9-18AB8228A487}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8937E30C-6167-496E-86F9-18AB8228A487}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8937E30C-6167-496E-86F9-18AB8228A487}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8937E30C-6167-496E-86F9-18AB8228A487}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
