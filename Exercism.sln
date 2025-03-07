@@ -137,6 +137,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clock", "Clock\Clock.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircularBuffer", "CircularBuffer\CircularBuffer.csproj", "{2B193EF2-8793-4822-9E43-E48885D06147}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordSearch", "WordSearch\WordSearch.csproj", "{B4B36CC3-CF5B-4AC2-AF50-E80DCBB04C80}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -415,5 +417,9 @@ Global
 		{2B193EF2-8793-4822-9E43-E48885D06147}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B193EF2-8793-4822-9E43-E48885D06147}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B193EF2-8793-4822-9E43-E48885D06147}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4B36CC3-CF5B-4AC2-AF50-E80DCBB04C80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4B36CC3-CF5B-4AC2-AF50-E80DCBB04C80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4B36CC3-CF5B-4AC2-AF50-E80DCBB04C80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4B36CC3-CF5B-4AC2-AF50-E80DCBB04C80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
