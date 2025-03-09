@@ -11,6 +11,7 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5ea77b07_002De33f_002D4b79_002Dab80_002D5baafc6685f4/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="To_Buffer_Upper_Long" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
     &lt;TestId&gt;xUnit::B698238B-6B09-4CE1-864E-64DB8341F402::net8.0::BottleSong.BottleSongTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::18D70E16-05F0-475B-9EFA-420417810FA8::net8.0::BankAccount.BankAccountTests&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
 	
