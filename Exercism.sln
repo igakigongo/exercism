@@ -151,6 +151,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BottleSong", "BottleSong\Bo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAccount", "BankAccount\BankAccount.csproj", "{18D70E16-05F0-475B-9EFA-420417810FA8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sieve", "Sieve\Sieve.csproj", "{59EA24A8-FB09-4057-A600-4AAAC1429B5A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -457,5 +459,9 @@ Global
 		{18D70E16-05F0-475B-9EFA-420417810FA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18D70E16-05F0-475B-9EFA-420417810FA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18D70E16-05F0-475B-9EFA-420417810FA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59EA24A8-FB09-4057-A600-4AAAC1429B5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59EA24A8-FB09-4057-A600-4AAAC1429B5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59EA24A8-FB09-4057-A600-4AAAC1429B5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59EA24A8-FB09-4057-A600-4AAAC1429B5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
