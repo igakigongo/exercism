@@ -153,6 +153,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAccount", "BankAccount\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sieve", "Sieve\Sieve.csproj", "{59EA24A8-FB09-4057-A600-4AAAC1429B5A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomSet", "CustomSet\CustomSet.csproj", "{5BA17567-CA3C-4DF1-9A18-704B1E05E0D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -463,5 +465,9 @@ Global
 		{59EA24A8-FB09-4057-A600-4AAAC1429B5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59EA24A8-FB09-4057-A600-4AAAC1429B5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59EA24A8-FB09-4057-A600-4AAAC1429B5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BA17567-CA3C-4DF1-9A18-704B1E05E0D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BA17567-CA3C-4DF1-9A18-704B1E05E0D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BA17567-CA3C-4DF1-9A18-704B1E05E0D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BA17567-CA3C-4DF1-9A18-704B1E05E0D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
