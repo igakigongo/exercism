@@ -4,41 +4,37 @@ namespace CustomSet;
 
 public class CustomSet : IEnumerable<int>
 {
-    private readonly int[] _set;
+    private readonly SortedSet<int> _set;
 
     public CustomSet(params int[] values)
     {
-        var hs = new HashSet<int>(values);
-        _set = hs.Select(x => x).ToArray();
-        Array.Sort(_set, (a, b) => a.CompareTo(b));
+        _set = new SortedSet<int>(values);
     }
 
     public CustomSet Add(int value)
     {
-        var result = new int[_set.Length + 1];
-        Array.Copy(_set, result, _set.Length);
-        result[_set.Length] = value;
-        return new CustomSet(result);
+        var result = new int[_set.Count + 1];
+        var i = 0;
+        foreach (var element in _set)
+            result[i++] = element;
+
+        result[i] = value;
+        return new CustomSet(result.ToArray());
     }
 
     public bool Empty()
     {
-        return _set.Length == 0;
+        return _set.Count == 0;
     }
 
     public bool Contains(int value)
     {
-        return Array.IndexOf(_set, value) >= 0;
+        return _set.Contains(value);
     }
 
     public bool Subset(CustomSet right)
     {
-        var set = new HashSet<int>(right);
-        var result = true;
-        foreach (var element in this)
-            result &= set.Contains(element);
-
-        return result;
+        return this.All(right.Contains);
     }
 
     public bool Disjoint(CustomSet right)
@@ -49,42 +45,20 @@ public class CustomSet : IEnumerable<int>
 
     public CustomSet Intersection(CustomSet right)
     {
-        var dictionary = new Dictionary<int, int>();
-        foreach (var element in this)
-            dictionary.Add(element, 1);
-
-        foreach (var element in right)
-            if (dictionary.ContainsKey(element))
-                dictionary[element]++;
-
-        List<int> intersection = [];
-        foreach (var (key, value) in dictionary)
-            if (value == 2)
-                intersection.Add(key);
-
-        return new CustomSet(intersection.ToArray());
+        var both = this.Intersect(right);
+        return new CustomSet(both.ToArray());
     }
 
     public CustomSet Difference(CustomSet right)
     {
-        List<int> notInRight = [];
-        foreach (var element in this)
-            if (!right.Contains(element))
-                notInRight.Add(element);
-
-        return new CustomSet(notInRight.ToArray());
+        var diff = this.Except(right);
+        return new CustomSet(diff.ToArray());
     }
 
     public CustomSet Union(CustomSet right)
     {
-        HashSet<int> union = [];
-        foreach (var element in right)
-            union.Add(element);
-
-        foreach (var element in _set)
-            union.Add(element);
-
-        return new CustomSet(union.ToArray());
+        var all = _set.Union(right);
+        return new CustomSet(all.ToArray());
     }
 
     public IEnumerator<int> GetEnumerator()
