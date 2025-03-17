@@ -157,6 +157,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomSet", "CustomSet\Cust
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EliudsEggs", "EliudsEggs\EliudsEggs.csproj", "{7FF30199-EC9F-47B4-83A7-08DDD50093F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sublist", "Sublist\Sublist.csproj", "{4C2DB17C-828A-4208-8192-10515B224AB2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -475,5 +477,9 @@ Global
 		{7FF30199-EC9F-47B4-83A7-08DDD50093F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FF30199-EC9F-47B4-83A7-08DDD50093F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FF30199-EC9F-47B4-83A7-08DDD50093F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C2DB17C-828A-4208-8192-10515B224AB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C2DB17C-828A-4208-8192-10515B224AB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C2DB17C-828A-4208-8192-10515B224AB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C2DB17C-828A-4208-8192-10515B224AB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
