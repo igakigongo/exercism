@@ -7,10 +7,8 @@
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AStringAsserts_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FLibrary_003FApplication_0020Support_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FSourcesCache_003F74a328368fe41d2091c5466d997e8a9748b142c81d46acca85d62465cdb0c145_003FStringAsserts_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003ATestInvoker_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FLibrary_003FApplication_0020Support_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FSourcesCache_003F5e14a4e27990972fa4ae94975603bd298aaf328ee083c03b10569ee4724d57_003FTestInvoker_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AThrowHelper_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FLibrary_003FApplication_0020Support_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FSourcesCache_003F6780d13016c376c4491c5618b257d84da7eacf747ed2719783e775546b79b_003FThrowHelper_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1591d6e2_002D2afc_002D4d94_002Da77e_002D995c4f41a9d7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from Solution" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;Solution /&gt;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5ea77b07_002De33f_002D4b79_002Dab80_002D5baafc6685f4/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="To_Buffer_Upper_Long" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5ea77b07_002De33f_002D4b79_002Dab80_002D5baafc6685f4/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="To_Buffer_Upper_Long" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
     &lt;TestId&gt;xUnit::B698238B-6B09-4CE1-864E-64DB8341F402::net8.0::BottleSong.BottleSongTests&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::18D70E16-05F0-475B-9EFA-420417810FA8::net8.0::BankAccount.BankAccountTests&lt;/TestId&gt;
@@ -22,6 +20,7 @@
     &lt;TestId&gt;xUnit::59EA24A8-FB09-4057-A600-4AAAC1429B5A::net8.0::Sieve.SieveTests&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::5BA17567-CA3C-4DF1-9A18-704B1E05E0D2::net8.0::CustomSet.CustomSetTests&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::7FF30199-EC9F-47B4-83A7-08DDD50093F4::net8.0::EliudsEggs.EliudsEggsTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::B60801D7-401B-4C8D-9D2E-198479193665::net8.0::Change.ChangeTests&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
 	
