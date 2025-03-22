@@ -163,6 +163,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Change", "Change\Change.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorHandling", "ErrorHandling\ErrorHandling.csproj", "{5A26284D-D52D-47D5-B6DE-EE40A0A1831B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wordy", "Wordy\Wordy.csproj", "{F97D4153-81C5-4447-B64F-69FD476EC834}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -493,5 +495,9 @@ Global
 		{5A26284D-D52D-47D5-B6DE-EE40A0A1831B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A26284D-D52D-47D5-B6DE-EE40A0A1831B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A26284D-D52D-47D5-B6DE-EE40A0A1831B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F97D4153-81C5-4447-B64F-69FD476EC834}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F97D4153-81C5-4447-B64F-69FD476EC834}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F97D4153-81C5-4447-B64F-69FD476EC834}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F97D4153-81C5-4447-B64F-69FD476EC834}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
