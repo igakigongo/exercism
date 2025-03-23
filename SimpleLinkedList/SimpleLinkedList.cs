@@ -4,7 +4,8 @@ namespace SimpleLinkedList;
 
 public class SimpleLinkedList<T>() : IEnumerable<T>
 {
-    private readonly List<T> _list = [];
+    private T[] _list = new T[4];
+    private int _currentIndex = -1;
 
     public SimpleLinkedList(IEnumerable<T> collection) : this()
     {
@@ -12,20 +13,33 @@ public class SimpleLinkedList<T>() : IEnumerable<T>
             Push(item);
     }
 
-    public int Count => _list.Count;
+    public int Count => _currentIndex + 1;
 
-    public void Push(T value) => _list.Add(value);
+    public void Push(T value)
+    {
+        if (_currentIndex == _list.Length - 1)
+            Grow();
+        
+        _list[++_currentIndex] = value;
+    }
 
     public T Pop()
     {
-        var value = _list.LastOrDefault() ?? default(T);
-        _list.RemoveAt(_list.Count - 1);
-        return value!;
+        var element = _list[_currentIndex];
+        _list[_currentIndex--] = default!;
+        return element;
+    }
+
+    private void Grow()
+    {
+        var array = new T[_list.Length * 2];
+        Array.Copy(_list, array, _list.Length);
+        _list = array;
     }
 
     public IEnumerator<T> GetEnumerator()
     {
-        for (var i = _list.Count - 1; i >= 0; i--)
+        for(var i = _currentIndex; i >= 0; i--)
             yield return _list[i];
     }
 
