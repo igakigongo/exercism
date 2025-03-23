@@ -167,6 +167,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wordy", "Wordy\Wordy.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecretHandshake", "SecretHandshake\SecretHandshake.csproj", "{7735917F-D4CA-4093-BF87-30356A61A803}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordCount", "WordCount\WordCount.csproj", "{2130353B-A651-45D0-8D90-7C6357BFDD7E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -505,5 +507,9 @@ Global
 		{7735917F-D4CA-4093-BF87-30356A61A803}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7735917F-D4CA-4093-BF87-30356A61A803}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7735917F-D4CA-4093-BF87-30356A61A803}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2130353B-A651-45D0-8D90-7C6357BFDD7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2130353B-A651-45D0-8D90-7C6357BFDD7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2130353B-A651-45D0-8D90-7C6357BFDD7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2130353B-A651-45D0-8D90-7C6357BFDD7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
