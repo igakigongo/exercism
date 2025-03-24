@@ -173,6 +173,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleLinkedList", "SimpleL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Luhn", "Luhn\Luhn.csproj", "{8A124A1C-3103-4457-9FD8-E3299BFFA97D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList", "LinkedList\LinkedList.csproj", "{27020860-750C-47F3-9052-E7799F6B5374}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -523,5 +525,9 @@ Global
 		{8A124A1C-3103-4457-9FD8-E3299BFFA97D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A124A1C-3103-4457-9FD8-E3299BFFA97D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A124A1C-3103-4457-9FD8-E3299BFFA97D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27020860-750C-47F3-9052-E7799F6B5374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27020860-750C-47F3-9052-E7799F6B5374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27020860-750C-47F3-9052-E7799F6B5374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27020860-750C-47F3-9052-E7799F6B5374}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
