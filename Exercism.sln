@@ -179,6 +179,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotSimulator", "RobotSimu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Etl", "Etl\Etl.csproj", "{076C2FBB-CCE5-45F9-A573-2BA37AC2A360}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transpose", "Transpose\Transpose.csproj", "{329013C6-B6C2-4F9B-87EC-31087944DB2B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -541,5 +543,9 @@ Global
 		{076C2FBB-CCE5-45F9-A573-2BA37AC2A360}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{076C2FBB-CCE5-45F9-A573-2BA37AC2A360}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{076C2FBB-CCE5-45F9-A573-2BA37AC2A360}.Release|Any CPU.Build.0 = Release|Any CPU
+		{329013C6-B6C2-4F9B-87EC-31087944DB2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{329013C6-B6C2-4F9B-87EC-31087944DB2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{329013C6-B6C2-4F9B-87EC-31087944DB2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{329013C6-B6C2-4F9B-87EC-31087944DB2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
