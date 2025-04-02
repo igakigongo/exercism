@@ -10,6 +10,7 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=97b94a75_002Db21e_002D4d62_002Db7ba_002Db7da75a8d2cd/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="GameOfLifeTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
     &lt;TestId&gt;xUnit::96B6B193-1846-4AD5-B6ED-1F9653F22778::net8.0::GameOfLife.GameOfLifeTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::AA5B7625-B733-4604-8868-48AC0C595E1E::net8.0::SimpleCipher.SimpleCipherTests&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
 	

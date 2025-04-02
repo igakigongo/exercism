@@ -25,8 +25,12 @@ public class SimpleCipher
         {
             var shift = (Key[i % Key.Length] - 'a') * (encode ? 1 : -1);
             var ch = text[i] + shift;
-            if (encode && ch > 122) ch = ch - 123 + 97;
-            if (!encode && ch < 97) ch = ch + 123 - 97;
+            ch = encode switch
+            {
+                true when ch > 122 => ch - 123 + 97,
+                false when ch < 97 => ch + 123 - 97,
+                _ => ch
+            };
 
             arr[i] = (char)ch;
         }
