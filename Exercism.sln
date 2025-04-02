@@ -181,6 +181,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Etl", "Etl\Etl.csproj", "{0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transpose", "Transpose\Transpose.csproj", "{329013C6-B6C2-4F9B-87EC-31087944DB2B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCipher", "SimpleCipher\SimpleCipher.csproj", "{AA5B7625-B733-4604-8868-48AC0C595E1E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -547,5 +549,9 @@ Global
 		{329013C6-B6C2-4F9B-87EC-31087944DB2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{329013C6-B6C2-4F9B-87EC-31087944DB2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{329013C6-B6C2-4F9B-87EC-31087944DB2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA5B7625-B733-4604-8868-48AC0C595E1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA5B7625-B733-4604-8868-48AC0C595E1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA5B7625-B733-4604-8868-48AC0C595E1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA5B7625-B733-4604-8868-48AC0C595E1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
