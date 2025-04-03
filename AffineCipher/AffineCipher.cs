@@ -51,10 +51,8 @@ public static class AffineCipher
 
     private static int GreatestCommonDivisor(int a, int b)
     {
-        if (a == 0) return b;
-        if (b == 0) return a;
-
-        return a > b ? GreatestCommonDivisor(a % b, b) : GreatestCommonDivisor(a, b % a);
+        while (b != 0) (a, b) = (b, a % b);
+        return a;
     }
 
     private static int ComputeModularMultiplicativeInverse(int a)
