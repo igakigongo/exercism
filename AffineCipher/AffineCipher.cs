@@ -38,7 +38,6 @@ public static class AffineCipher
         var mmi = ComputeModularMultiplicativeInverse(a);
         var sb = new StringBuilder(cipheredText.Length);
 
-        List<char> chars = [];
         foreach (var ch in cipheredText)
             if (char.IsDigit(ch)) sb.Append(ch);
             else if (char.IsLetter(ch))
