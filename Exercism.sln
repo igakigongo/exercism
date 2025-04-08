@@ -187,6 +187,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameOfLife", "GameOfLife\Ga
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AffineCipher", "AffineCipher\AffineCipher.csproj", "{B7B35D34-2E9A-437B-A9C3-672ED117023D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoSquare", "CryptoSquare\CryptoSquare.csproj", "{B83264A3-4433-4388-8ADA-7ACC72988B42}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -565,5 +567,9 @@ Global
 		{B7B35D34-2E9A-437B-A9C3-672ED117023D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7B35D34-2E9A-437B-A9C3-672ED117023D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7B35D34-2E9A-437B-A9C3-672ED117023D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B83264A3-4433-4388-8ADA-7ACC72988B42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B83264A3-4433-4388-8ADA-7ACC72988B42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B83264A3-4433-4388-8ADA-7ACC72988B42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B83264A3-4433-4388-8ADA-7ACC72988B42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
