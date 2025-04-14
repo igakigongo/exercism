@@ -10,6 +10,7 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=97c4c11f_002D845d_002D4b1f_002D9444_002Dbb7098e379b9/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="CryptoSquareTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
     &lt;TestId&gt;xUnit::B83264A3-4433-4388-8ADA-7ACC72988B42::net8.0::CryptoSquare.CryptoSquareTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::CE722308-767A-4FD4-955E-70BC5FD55851::net8.0::RailFenceCipher.RailFenceCipherTests&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
 	
